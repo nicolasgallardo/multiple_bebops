@@ -11,9 +11,9 @@ b.	Connect to the drone:
 >>  adb connect 192.168.43.1:9050
 
 
-2.	Edit the shell script longpress_0.sh on your host pc.
+2.	Edit the shell script shortpress_3.sh on your host pc.
 Fill in the ssid, password  of your network and the ip you want to have for the drone.
 >>  . copy_files.sh
-3.	You can test if everything works by restarting the drone, wait until if is finishing with booting and press the on/off button approx.. 4s. after approx.. 10s the connection is established and you should be able to ping the drone.
+3.	You can test if everything works by restarting the drone, wait until if is finishing with booting and press the on/off button 3 times, the Bebop will give a beep feedback. After 10s-30s the connection is established and you should be able to ping the drone.
  
 4.	Follow the readme file in the ARDrone-wpa2 folder to switch the bebop to a secured network.

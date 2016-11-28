@@ -11,6 +11,5 @@ adb push iwspy /sbin/iwspy &&
 adb push wpa_cli /bin/wpa_cli &&
 adb push wpa_passphrase /bin/wpa_passphrase &&
 adb push wpa_supplicant /bin/wpa_supplicant &&
-adb shell cp /bin/onoffbutton/longpress_0.sh /bin/onoffbutton/backup_longpress_0.sh &&
-adb push longpress_0.sh /bin/onoffbutton/longpress_0.sh &&
-adb shell chmod 777 /bin/onoffbutton/longpress_0.sh
+adb push shortpress_3.sh /bin/onoffbutton/shortpress_3.sh &&
+adb shell chmod 777 /bin/onoffbutton/shortpress_3.sh
