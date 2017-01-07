@@ -1,5 +1,6 @@
+#!/bin/sh
 #Set the SSID, Password and IP
-SSID='YOUR_SSID'	# Change this to your SSID
+SSID='ssid'	# Change this to your SSID
 PW='password' 		# Change this to the password of your wifi network
 IP=192.168.1.101 	# Change this to the desired Bebop IP	
 
