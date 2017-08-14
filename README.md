@@ -17,3 +17,21 @@ Fill in the ssid, password  of your network and the ip you want to have for the 
 3.	You can test if everything works by restarting the drone, wait until if is finishing with booting and press the on/off button 3 times, the Bebop will give a beep feedback. After 10s-30s the connection is established and you should be able to ping the drone.
  
 4.	Follow the readme file in the ARDrone-wpa2 folder to switch the bebop to a secured network.
+
+
+=================================================================================================
+To change the IP permanently
+1. switch the drone on and connect your pc to the drone access point
+
+2. open a terminal
+
+b.	Connect to the drone: 
+>>  adb connect 192.168.43.1:9050
+
+4. >> cd sbin
+
+5. >> vi broadcom setup.sh
+
+6. change field IFACE IP AP=”192.168.42.1” to IFACE IP AP=”192.168.42.x”, where x represents any number which you have not assigned to other drones
+
+7. save the file and exit
