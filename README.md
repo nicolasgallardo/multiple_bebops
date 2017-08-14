@@ -32,7 +32,7 @@ To change the IP permanently
 
 4. >> cd sbin
 
-5. >> vi broadcom setup.sh
+5. >> vi broadcom_setup.sh
 
 6. change field IFACE IP AP=”192.168.42.1” to IFACE IP AP=”192.168.42.x”, where x represents any number which you have not assigned to other drones
 
