@@ -25,8 +25,10 @@ To change the IP permanently
 
 2. open a terminal
 
-b.	Connect to the drone: 
+3.	Connect to the drone: 
 >>  adb connect 192.168.43.1:9050
+
+>> type >> adb shell
 
 4. >> cd sbin
 
