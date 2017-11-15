@@ -28,13 +28,14 @@ To change the IP permanently
 3.	Connect to the drone: 
 >>  adb connect 192.168.43.1:9050
 
-type >> adb shell
-type >> mount -o remount,rw /
+>>  adb shell
+>>  mount -o remount,rw /
 
-4. >> cd sbin
+4. >>  cd sbin
 
-5. >> vi broadcom_setup.sh
- go with the cursor to the right position and type i to start writing, esc to stop and wq to exit. (or google the right vi commands :-)
+5. >>  vi broadcom_setup.sh
+
+go with the cursor to the right position and type i to start writing, esc to stop and wq to exit. (or google the right vi commands :-)
  
 6. change field IFACE IP AP=”192.168.42.1” to IFACE IP AP=”192.168.42.x”, where x represents any number which you have not assigned to other drones
 
